@@ -1,3 +1,13 @@
+Поиск по тегам (type):
+В файле Poke.js (12-28) код должен делать перебор массива results, чтобы через props передать в рендер те items, которые соответствуют условию на соответствие с выбранном в select тегом (функция filter).
+Само условие работает, и в консоли выводятся нужные items и их количество, 
+но видимо, т.к. fetch всегда возвращает промисы, которые расцениваются как true, то в results попадают все объекты, полученные от fetch. 
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
