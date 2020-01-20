@@ -1,0 +1,14 @@
+.Pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 16.66rem;
+  margin: 0 .5rem 2.3rem .5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.Pokemon .image-container {
+  margin-bottom: 1rem;
+}
+
+
